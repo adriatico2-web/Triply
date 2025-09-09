@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: light; }
+body { @apply bg-gradient-to-br from-sky-400 to-indigo-600 min-h-screen text-gray-900; }
+.container { @apply max-w-5xl mx-auto p-6; }
+.card { @apply rounded-2xl border bg-white/90 backdrop-blur-sm p-4; }
+.btn { @apply px-4 py-2 rounded-xl font-semibold; }
+.btn-primary { @apply bg-indigo-600 text-white hover:bg-indigo-700; }
+.input { @apply border rounded-xl px-3 py-2; }
+.label { @apply text-xs text-gray-500 block mb-1; }
